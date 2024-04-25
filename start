@@ -1,8 +1,7 @@
 #!bin/bash
 
-curl  -s "https://raw.githubusercontent.com/ssnjrthegr8/tegbzn/master/temp.tegbzn.conf" -o /home/nzbget/nzbget.conf && 
+curl  "https://raw.githubusercontent.com/ssnjrthegr8/tegbzn/master/temp.tegbzn.conf" -o /home/nzbget/nzbget.conf && 
 echo 'nzbget config loaded' || { echo 'ERROR: unable to get nzbget config' ; exit 1; }
-
 # Rewrites certain options in nzbget.conf:
 
 home='\/home\/nzbget\/maindir\/'
