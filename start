@@ -7,6 +7,9 @@ echo 'nzbget config loaded' || { echo 'ERROR: unable to get nzbget config' ; exi
 home='\/home\/nzbget\/maindir\/'
 extensions='gclone_pp.py'
 formauth='yes'
+PORT='6791'
+CTRL_USERNAME='itsyoursuparibhai'
+CTRL_PASS='suparibhaikeaagekoibolsaktahaikya'
 
 sed -i \
     -e 's/\(ControlPort=\).*/\1'$PORT'/' \
